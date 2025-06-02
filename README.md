@@ -1,4 +1,5 @@
-# FlowerNerd - Aplicativo de Identificação de Flores
+# FlowerNerd
+Registre suas flores favoritas e aprenda mais sobre a língua vitoriana das flores!
 
 ## Requisitos Prévios
 
@@ -58,7 +59,7 @@ Para que o aplicativo funcione corretamente, você precisa atualizar o endereço
    - Windows: `ipconfig` no terminal
    - Mac/Linux: `ifconfig` ou `ip addr` no terminal
 
-2. Atualize o IP no arquivo de configuração do frontend (geralmente em `FlowerNerd/src/config/api.js` ou similar) substituindo o IP atual pelo seu IP local
+2. Atualize o IP no arquivo de configuração do frontend (está em `/FlowerNerd-app/screens/HomeScreen.js`) substituindo o IP atual pelo seu IP local
 
 ## Executando o Aplicativo
 
@@ -80,16 +81,3 @@ Para que o aplicativo funcione corretamente, você precisa atualizar o endereço
   - Delete a pasta `node_modules`
   - Delete o arquivo `package-lock.json`
   - Execute `npm install` novamente
-
-## Estrutura do Projeto
-
-```
-FlowerNerd/
-├── backend/           # Servidor Node.js
-│   ├── index.js      # Arquivo principal do backend
-│   └── package.json  # Dependências do backend
-├── FlowerNerd/       # Aplicativo React Native
-│   ├── src/         # Código fonte do frontend
-│   └── package.json # Dependências do frontend
-└── flowers.json     # Dados das flores para importação
-``` 

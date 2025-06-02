@@ -43,9 +43,6 @@ cd FlowerNerd-app
 2. Instale as dependências necessárias:
 ```bash
 npm install
-npm install @react-navigation/bottom-tabs react-native-vector-icons
-npm install expo-image-picker
-npm install @react-native-async-storage/async-storage
 ```
 
 3. Inicie o aplicativo:
